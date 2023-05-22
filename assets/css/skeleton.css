@@ -1,0 +1,359 @@
+
+
+
+/* Table of Contents
+==================================================
+	#Base 1200 Grid
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+
+	
+/* #Base 1200 Grid
+================================================== */	
+	
+		.contactsmain                                  { position: relative; width: 1200px; margin: 0 auto; padding: 0; }
+		.contactsmain .column,
+		.contactsmain .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;}
+		.row                                        { margin-bottom: 20px; }
+
+		/* Nested Column Classes */
+		.column.alpha, .columns.alpha               { margin-left: 0; }
+		.column.omega, .columns.omega               { margin-right: 0; }
+
+		/* Base Grid */
+		.contactsmain .one.column,
+		.contactsmain .one.columns                     { width: 55px;  }
+		.contactsmain .two.columns                     { width: 130px; }
+		.contactsmain .three.columns                   { width: 205px; }
+		.contactsmain .four.columns                    { width: 280px; }
+		.contactsmain .five.columns                    { width: 355px; }
+		.contactsmain .six.columns                     { width: 430px; }
+		.contactsmain .seven.columns                   { width: 505px; }
+		.contactsmain .eight.columns                   { width: 580px; }
+		.contactsmain .nine.columns                    { width: 655px; }
+		.contactsmain .ten.columns                     { width: 730px; }
+		.contactsmain .eleven.columns                  { width: 805px; }
+		.contactsmain .twelve.columns                  { width: 880px; }
+		.contactsmain .thirteen.columns                { width: 955px; }
+		.contactsmain .fourteen.columns                { width: 1030px; }
+		.contactsmain .fifteen.columns                 { width: 1105px; }
+		.contactsmain .sixteen.columns                 { width: 1180px; }
+
+		.contactsmain .one-third.column                { width: 380px; }
+		.contactsmain .two-thirds.column               { width: 780px; }
+
+		/* Offsets */
+		.contactsmain .offset-by-one                   { padding-left: 75px;  }
+		.contactsmain .offset-by-two                   { padding-left: 150px; }
+		.contactsmain .offset-by-three                 { padding-left: 225px; }
+		.contactsmain .offset-by-four                  { padding-left: 300px; }
+		.contactsmain .offset-by-five                  { padding-left: 375px; }
+		.contactsmain .offset-by-six                   { padding-left: 450px; }
+		.contactsmain .offset-by-seven                 { padding-left: 525px; }
+		.contactsmain .offset-by-eight                 { padding-left: 600px; }
+		.contactsmain .offset-by-nine                  { padding-left: 675px; }
+		.contactsmain .offset-by-ten                   { padding-left: 750px; }
+		.contactsmain .offset-by-eleven                { padding-left: 825px; }
+		.contactsmain .offset-by-twelve                { padding-left: 900px; }
+		.contactsmain .offset-by-thirteen              { padding-left: 975px; }
+		.contactsmain .offset-by-fourteen              { padding-left: 1050px; }
+		.contactsmain .offset-by-fifteen               { padding-left: 1125px; }	
+	
+	
+	
+	
+
+/* #Base 960 Grid
+================================================== */
+
+	@media only screen and (min-width: 960px) and (max-width: 1199px) {
+		.contactsmain                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+		.contactsmain .column,
+		.contactsmain .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;}
+		.row                                        { margin-bottom: 20px; }
+
+		/* Nested Column Classes */
+		.column.alpha, .columns.alpha               { margin-left: 0; }
+		.column.omega, .columns.omega               { margin-right: 0; }
+
+		/* Base Grid */
+		.contactsmain .one.column,
+		.contactsmain .one.columns                     { width: 40px;  }
+		.contactsmain .two.columns                     { width: 100px; }
+		.contactsmain .three.columns                   { width: 160px; }
+		.contactsmain .four.columns                    { width: 220px; }
+		.contactsmain .five.columns                    { width: 280px; }
+		.contactsmain .six.columns                     { width: 340px; }
+		.contactsmain .seven.columns                   { width: 400px; }
+		.contactsmain .eight.columns                   { width: 460px; }
+		.contactsmain .nine.columns                    { width: 520px; }
+		.contactsmain .ten.columns                     { width: 580px; }
+		.contactsmain .eleven.columns                  { width: 640px; }
+		.contactsmain .twelve.columns                  { width: 700px; }
+		.contactsmain .thirteen.columns                { width: 760px; }
+		.contactsmain .fourteen.columns                { width: 820px; }
+		.contactsmain .fifteen.columns                 { width: 880px; }
+		.contactsmain .sixteen.columns                 { width: 940px; }
+
+		.contactsmain .one-third.column                { width: 300px; }
+		.contactsmain .two-thirds.column               { width: 620px; }
+
+		/* Offsets */
+		.contactsmain .offset-by-one                   { padding-left: 60px;  }
+		.contactsmain .offset-by-two                   { padding-left: 120px; }
+		.contactsmain .offset-by-three                 { padding-left: 180px; }
+		.contactsmain .offset-by-four                  { padding-left: 240px; }
+		.contactsmain .offset-by-five                  { padding-left: 300px; }
+		.contactsmain .offset-by-six                   { padding-left: 360px; }
+		.contactsmain .offset-by-seven                 { padding-left: 420px; }
+		.contactsmain .offset-by-eight                 { padding-left: 480px; }
+		.contactsmain .offset-by-nine                  { padding-left: 540px; }
+		.contactsmain .offset-by-ten                   { padding-left: 600px; }
+		.contactsmain .offset-by-eleven                { padding-left: 660px; }
+		.contactsmain .offset-by-twelve                { padding-left: 720px; }
+		.contactsmain .offset-by-thirteen              { padding-left: 780px; }
+		.contactsmain .offset-by-fourteen              { padding-left: 840px; }
+		.contactsmain .offset-by-fifteen               { padding-left: 900px; }
+	}
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .contactsmain                                  { width: 768px; }
+        .contactsmain .column,
+        .contactsmain .columns                         { margin-left: 10px; margin-right: 10px;  margin-top: 10px; margin-bottom: 10px;}
+        .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
+        .column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
+        .alpha.omega                                { margin-left: 0; margin-right: 0; }
+
+        .contactsmain .one.column,
+        .contactsmain .one.columns                     { width: 28px; }
+        .contactsmain .two.columns                     { width: 76px; }
+        .contactsmain .three.columns                   { width: 124px; }
+        .contactsmain .four.columns                    { width: 172px; }
+        .contactsmain .five.columns                    { width: 220px; }
+        .contactsmain .six.columns                     { width: 268px; }
+        .contactsmain .seven.columns                   { width: 316px; }
+        .contactsmain .eight.columns                   { width: 364px; }
+        .contactsmain .nine.columns                    { width: 412px; }
+        .contactsmain .ten.columns                     { width: 460px; }
+        .contactsmain .eleven.columns                  { width: 508px; }
+        .contactsmain .twelve.columns                  { width: 556px; }
+        .contactsmain .thirteen.columns                { width: 604px; }
+        .contactsmain .fourteen.columns                { width: 652px; }
+        .contactsmain .fifteen.columns                 { width: 700px; }
+        .contactsmain .sixteen.columns                 { width: 748px; }
+
+        .contactsmain .one-third.column                { width: 236px; }
+        .contactsmain .two-thirds.column               { width: 492px; }
+
+        /* Offsets */
+        .contactsmain .offset-by-one                   { padding-left: 48px; }
+        .contactsmain .offset-by-two                   { padding-left: 96px; }
+        .contactsmain .offset-by-three                 { padding-left: 144px; }
+        .contactsmain .offset-by-four                  { padding-left: 192px; }
+        .contactsmain .offset-by-five                  { padding-left: 240px; }
+        .contactsmain .offset-by-six                   { padding-left: 288px; }
+        .contactsmain .offset-by-seven                 { padding-left: 336px; }
+        .contactsmain .offset-by-eight                 { padding-left: 384px; }
+        .contactsmain .offset-by-nine                  { padding-left: 432px; }
+        .contactsmain .offset-by-ten                   { padding-left: 480px; }
+        .contactsmain .offset-by-eleven                { padding-left: 528px; }
+        .contactsmain .offset-by-twelve                { padding-left: 576px; }
+        .contactsmain .offset-by-thirteen              { padding-left: 624px; }
+        .contactsmain .offset-by-fourteen              { padding-left: 672px; }
+        .contactsmain .offset-by-fifteen               { padding-left: 720px; }
+		
+		.col4-sm{width: 364px !important;}
+	}
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .contactsmain { width: 420px; }
+        .contactsmain .columns,
+        .contactsmain .column {  margin-left: 0; margin-right: 0; margin-top: 10px; margin-bottom: 10px;}
+
+        .contactsmain .one.column,
+        .contactsmain .one.columns,
+        .contactsmain .two.columns,
+        .contactsmain .three.columns,
+        .contactsmain .four.columns,
+        .contactsmain .five.columns,
+        .contactsmain .six.columns,
+        .contactsmain .seven.columns,
+        .contactsmain .eight.columns,
+        .contactsmain .nine.columns,
+        .contactsmain .ten.columns,
+        .contactsmain .eleven.columns,
+        .contactsmain .twelve.columns,
+        .contactsmain .thirteen.columns,
+        .contactsmain .fourteen.columns,
+        .contactsmain .fifteen.columns,
+        .contactsmain .sixteen.columns,
+        .contactsmain .one-third.column,
+        .contactsmain .two-thirds.column  { width: 420px; }
+
+        /* Offsets */
+        .contactsmain .offset-by-one,
+        .contactsmain .offset-by-two,
+        .contactsmain .offset-by-three,
+        .contactsmain .offset-by-four,
+        .contactsmain .offset-by-five,
+        .contactsmain .offset-by-six,
+        .contactsmain .offset-by-seven,
+        .contactsmain .offset-by-eight,
+        .contactsmain .offset-by-nine,
+        .contactsmain .offset-by-ten,
+        .contactsmain .offset-by-eleven,
+        .contactsmain .offset-by-twelve,
+        .contactsmain .offset-by-thirteen,
+        .contactsmain .offset-by-fourteen,
+        .contactsmain .offset-by-fifteen { padding-left: 0; }
+		.hidden-xs{display:none !important}
+    }
+
+/* #Mobile 
+================================================== */
+
+
+    @media only screen and (min-width: 320px) and (max-width: 479px) {
+        .contactsmain { width: 300px; }
+        .contactsmain .columns,
+        .contactsmain .column {  margin-left: 0; margin-right: 0;  margin-top: 10px; margin-bottom: 10px;}
+
+        .contactsmain .one.column,
+        .contactsmain .one.columns,
+        .contactsmain .two.columns,
+        .contactsmain .three.columns,
+        .contactsmain .four.columns,
+        .contactsmain .five.columns,
+        .contactsmain .six.columns,
+        .contactsmain .seven.columns,
+        .contactsmain .eight.columns,
+        .contactsmain .nine.columns,
+        .contactsmain .ten.columns,
+        .contactsmain .eleven.columns,
+        .contactsmain .twelve.columns,
+        .contactsmain .thirteen.columns,
+        .contactsmain .fourteen.columns,
+        .contactsmain .fifteen.columns,
+        .contactsmain .sixteen.columns,
+        .contactsmain .one-third.column,
+        .contactsmain .two-thirds.column { width: 300px; }
+
+        /* Offsets */
+        .contactsmain .offset-by-one,
+        .contactsmain .offset-by-two,
+        .contactsmain .offset-by-three,
+        .contactsmain .offset-by-four,
+        .contactsmain .offset-by-five,
+        .contactsmain .offset-by-six,
+        .contactsmain .offset-by-seven,
+        .contactsmain .offset-by-eight,
+        .contactsmain .offset-by-nine,
+        .contactsmain .offset-by-ten,
+        .contactsmain .offset-by-eleven,
+        .contactsmain .offset-by-twelve,
+        .contactsmain .offset-by-thirteen,
+        .contactsmain .offset-by-fourteen,
+        .contactsmain .offset-by-fifteen { padding-left: 0; }
+		.hidden-xs{display:none !important}
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 319px) {
+        .contactsmain { width: 220px; }
+        .contactsmain .columns,
+        .contactsmain .column { margin-left: 0; margin-right: 0; margin-top: 10px; margin-bottom: 10px;}
+
+        .contactsmain .one.column,
+        .contactsmain .one.columns,
+        .contactsmain .two.columns,
+        .contactsmain .three.columns,
+        .contactsmain .four.columns,
+        .contactsmain .five.columns,
+        .contactsmain .six.columns,
+        .contactsmain .seven.columns,
+        .contactsmain .eight.columns,
+        .contactsmain .nine.columns,
+        .contactsmain .ten.columns,
+        .contactsmain .eleven.columns,
+        .contactsmain .twelve.columns,
+        .contactsmain .thirteen.columns,
+        .contactsmain .fourteen.columns,
+        .contactsmain .fifteen.columns,
+        .contactsmain .sixteen.columns,
+        .contactsmain .one-third.column,
+        .contactsmain .two-thirds.column { width: 220px; }
+
+        /* Offsets */
+        .contactsmain .offset-by-one,
+        .contactsmain .offset-by-two,
+        .contactsmain .offset-by-three,
+        .contactsmain .offset-by-four,
+        .contactsmain .offset-by-five,
+        .contactsmain .offset-by-six,
+        .contactsmain .offset-by-seven,
+        .contactsmain .offset-by-eight,
+        .contactsmain .offset-by-nine,
+        .contactsmain .offset-by-ten,
+        .contactsmain .offset-by-eleven,
+        .contactsmain .offset-by-twelve,
+        .contactsmain .offset-by-thirteen,
+        .contactsmain .offset-by-fourteen,
+        .contactsmain .offset-by-fifteen { padding-left: 0; }
+		.hidden-xs{display:none !important}
+    }
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .contactsmain:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
